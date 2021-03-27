@@ -1,0 +1,86 @@
+#header{
+    display: flex;
+    padding: 15px;
+    background-color: black;
+    justify-content: space-between;
+}
+    #header h1 a{
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+    }
+    .h-item{
+        line-height: 47px;
+        color: #949497;
+    }
+        .h-item ul li{
+            list-style-type: none;
+            display: inline;
+            padding-right: 10px;
+            text-transform: capitalize;
+        }
+            .h-item ul li a{
+                text-decoration: none;
+                color: #949497;
+            }
+                .h-item ul li a:hover{
+                    color: white;
+                }
+
+#body{
+    width: 100%;
+}
+    #body .introduce{
+        width: 1012px;
+        margin: 50px auto;
+        color: white;
+        font-size: 25px;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+        .introduce a{
+            color: white;
+        }
+    #body .read-more{
+        margin: 0 auto;
+        display: block;
+        width: var(--wid);
+        padding: 15px 0;
+        font-size: 28px;
+        font-weight: bold;
+        color: white;
+        background-color: #d84780;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 8px;
+    }
+    
+    #con-box{
+        margin: 80px auto 50px;
+        max-width: 1300px;
+        min-width: 375px;
+    }
+        #con-box #box ul{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+            #con-box #box li{
+                flex-basis: 375px;
+                background-color: white;
+                color: #ea9dbb;
+                list-style-type: none;
+                padding-bottom: 40px;
+                margin-bottom: 40px;
+                border-bottom-left-radius: 6px;
+                border-bottom-right-radius: 6px;
+            }
+                #con-box #box li p{
+                    width: 80%;
+                    margin: 30px auto;
+                    line-height: 40px;
+                    text-align: center;
+                }
